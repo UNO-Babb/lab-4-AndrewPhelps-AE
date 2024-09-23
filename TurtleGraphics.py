@@ -51,15 +51,15 @@ def squaresInSquares(myTurtle, num):
 def main():
     myTurtle = turtle.Turtle()
     
-    # drawPolygon(myTurtle, 5) #draws a pentagon
-    # drawPolygon(myTurtle, 8) #draws an octogon
+    #drawPolygon(myTurtle, 5) #draws a pentagon
+    #drawPolygon(myTurtle, 8) #draws an octogon
     
     #drawPolygon(myTurtle, 5)
     
-    #  fillCorner(myTurtle, 5) # fillCorner(myTurtle, 2) #draws a square with top right corner filled in.
-    # fillCorner(myTurtle, 3) #draws a square bottom left corner filled in.
+    #fillCorner(myTurtle, 5) # fillCorner(myTurtle, 2) #draws a square with top right corner filled in.
+    #fillCorner(myTurtle, 3) #draws a square bottom left corner filled in.
 
-    # squaresInSquares(myTurtle, 5) #draws 5 concentric squares
+    squaresInSquares(myTurtle, 5) #draws 5 concentric squares
     # squaresInSquares(myTurtle, 3) #draws 3 concentric squares
 
 
